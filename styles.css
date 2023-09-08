@@ -6,4 +6,165 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #232323;
+}
 
+nav {
+    background-color: #3A3D46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    font-family: Inter;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul> li> a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.curntpage {
+    border-radius: 4px;
+    background: #007DFC;
+    padding: 8px 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+}
+
+main {
+    font-family: 'Raleway';
+}
+
+.top {
+    background: #232323;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 120px;
+    border-spacing: 20px;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.lorem {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 65px */
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+}
+
+h1 .news {
+    color: #ffb800;
+}
+
+h2 {
+    padding: 30px 0;
+    color: #007DFC;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 1.04px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130.5%;
+    letter-spacing: 0.32px;
+    width: 387px;
+    padding: 23px 0;
+}
+
+.text > a {
+    background-color: #ffb800;
+    color: #000;
+    border-radius: 45px;
+    text-decoration: none;
+    letter-spacing: 0.3;
+    padding: 15px 20px;
+    position: absolute;
+    left: 120px;
+    top: 530px;
+}
+
+.line {
+    color: #949494;
+    margin: 23px 0 22px;
+    width: 100%;
+    border: 1px solid;
+    padding: auto 10px;
+}
+
+.biglogo {
+    width: 100%;
+}
+
+.bottom {
+    background: #F6F6F6;
+    width: 1440px;
+    padding: 82px 120px 95px;
+}
+
+.latest {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 130.5%;
+    letter-spacing: 0.56px;
+}
+
+.line2 {
+    border: #000 solid 1px;
+    width: 145px;
+    padding-left: 100px ;
+    margin-left: 45px;
+}
+
+.images > img{
+    width: 100px;
+    height: 100px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    min-height: 559px;
+}
+
+.images img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.nerd {
+    grid-row: 1/3;
+    grid-column: 1 / 2;
+    object-fit: cover;
+}
