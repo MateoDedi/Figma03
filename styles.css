@@ -104,6 +104,7 @@ p {
 }
 
 .text > a {
+    display: block;
     background-color: #ffb800;
     color: #000;
     border-radius: 45px;
@@ -111,16 +112,14 @@ p {
     letter-spacing: 0.3;
     padding: 15px 25px;
     position: absolute;
-    left: 9%;
-    top: 90%;
+    margin: auto 0;
 }
 
 .line {
     color: #949494;
-    margin: 23px 0 22px;
-    width: 100%;
+    margin: 23px 0px 22px;
+    width: 29rem;
     border: 1px solid;
-    padding: auto 10px;
 }
 
 .biglogo {
@@ -148,19 +147,18 @@ p {
 }
 
 img {
-    overflow-clip-margin: content-box;
-    
+        overflow-clip-margin: content-box;
+        overflow: clip;
 }
 
 .images {
     display: grid; 
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+    gap: 1rem;
     height: 100%;
     width: 100%;
     margin-top: 45px;
-    margin-right: 45px;
 }
 
 .img1 {
@@ -168,9 +166,8 @@ img {
     grid-column-start: 1;
     grid-row-end: 3;
     grid-column-end: 2;
-    width: 387px;
+    width: 100%;
     height: 100%;
-    flex-shrink: 0;
     object-fit: cover;
 }
 
@@ -181,17 +178,15 @@ img {
     grid-column-end: 3;
     width: 100%;
     height: 100%;
-    flex-shrink: 0;
 }
 
-.img3 { 
+.img3 {
     grid-row-start: 2;
     grid-column-start: 2;
     grid-row-end: 3;
     grid-column-end: 3;
-    width: 386px;
-    height: 269px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .img4 {
@@ -199,9 +194,8 @@ img {
     grid-column-start: 3;
     grid-row-end: 2;
     grid-column-end: 4;
-    width: 386px;
-    height: 269px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .img5 {
@@ -209,7 +203,6 @@ img {
     grid-column-start: 3;
     grid-row-end: 3;
     grid-column-end: 4;
-    width: 386px;
-    height: 269px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
 }
